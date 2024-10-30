@@ -1,13 +1,20 @@
 # Tener en cuenta la diagonal estrictamente dominante
 # ingresar las ecuaciones despejadas para x,y,z
+# Quitar el pass
+
 def def_x(y,z):
-  return 
+  # return 7.85 + 0.1*(y) + 0.2*(z)
+  # return (5 + 2*(z) - y) / 7
+  pass
 
 def def_y(x,z):
-  return
+  # return (-19.3 - 0.1*(x) + 0.3*(z)) / 7
+  # return (20 - 3*(x) + z) / 5
+  pass
 
 def def_z(x,y):
-  return 
+  # return (-4 + x + y) / 3
+  pass
 
 def gaus_seidel(ecu_x, ecu_y, ecu_z):
   x = 0
